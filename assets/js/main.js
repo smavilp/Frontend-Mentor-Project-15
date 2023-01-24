@@ -7,7 +7,6 @@ const thankSpan = document.querySelector(".thank-span");
 const firstPenddiv = document.querySelector(".first-p-end-div");
 const secondPendDiv = document.querySelector(".second-p-end-div");
 const ratingUsBtn = document.querySelector(".rating-us-btn");
-let rating = 0;
 
 ratingBtns.forEach((btn) => {
     btn.addEventListener("click",()=>{
